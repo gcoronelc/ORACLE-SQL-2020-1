@@ -67,13 +67,13 @@
 
 [![ORACLE PL/SQL](https://raw.githubusercontent.com/gcoronelc/UDEMY/master/cursos/plsql.png)](https://youtu.be/qf5IF2dJtQc "ORACLE PL/SQL")
 
-# JAVA ORIENTADO A OBJETOS
+## JAVA ORIENTADO A OBJETOS
 
 - Enlace: https://www.udemy.com/course/java-orientado-a-objetos/?referralCode=ED949D58C79D27158E8D
 
 [![JAVA ORIENTADO A OBJETOS](https://raw.githubusercontent.com/gcoronelc/UDEMY/master/cursos/joo.png)](http://www.youtube.com/watch?v=EKlwF12-l9Y "JAVA ORIENTADO A OBJETOS")
 
-# PROGRAMACIÓN DE BASE DE DATOS ORACLE CON JAVA JDBC
+## PROGRAMACIÓN DE BASE DE DATOS ORACLE CON JAVA JDBC
 
 - Enlace: https://www.udemy.com/course/java-jdbc-oracle/?referralCode=C518C8D3028403F7F6DF
 
