@@ -16,3 +16,4 @@ Presentar una caso
 PD: Las consultas complejas deben ser multitablas, con subconsultas, grupos, with, etc.
 
 
+Gustavo
