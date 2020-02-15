@@ -6,6 +6,7 @@
 - Lugar: SistemasUNI
 - Horario: SABADO DE 08 A 14 HORAS
 - Inicio: 15-FEB-2020
+- Duración: 24 Horas
 - Dirección: https://goo.gl/maps/98vwAt9NZMU2
 - Página: http://gcoronelc.blogspot.com/p/oracle.html
 - Código fuente: https://goo.gl/GRaOQg
@@ -26,6 +27,18 @@
 
 - Curso 01: https://bit.ly/2Bx0S8a
 - Curso 02: https://bit.ly/2AYMiac
+
+
+# YUTUBE
+
+- JAVA OO: https://bit.ly/2FCowSU
+- JDBC: https://bit.ly/2TaHisH
+- PL/SQL: https://bit.ly/2uvE9cF
+- C++: https://bit.ly/2R4nZP2
+- ORCLE: https://bit.ly/2QZIBbf
+- JAVA WEB CON ORACLE: https://bit.ly/36D6njZ
+- WS SOAP EJEMPLO 1: https://bit.ly/2Rd7osH
+- WS SOAP EJEMPLO 2: https://bit.ly/39PalrT
 
 
 # MATERIAL DEL CURSO
