@@ -1,11 +1,11 @@
-![ORACLE SQL](https://raw.githubusercontent.com/gcoronelc/ORACLE-SQL-2019-12/master/img/sql.png)
+![ORACLE SQL](https://raw.githubusercontent.com/gcoronelc/ORACLE-SQL-2020-1/master/img/sql.png)
 
 
 # ORACLE SQL
 
 - Lugar: SistemasUNI
 - Horario: SABADO DE 08 A 14 HORAS
-- Inicio: 07-DIC-2019
+- Inicio: 15-FEB-2020
 - Dirección: https://goo.gl/maps/98vwAt9NZMU2
 - Página: http://gcoronelc.blogspot.com/p/oracle.html
 - Código fuente: https://goo.gl/GRaOQg
@@ -17,9 +17,9 @@
 # DOCENTE
 
 - Docente: Eric Gustavo Coronel Castillo
+- Correo del curso: egcc.uni@gmail.com
 - Blog: www.desarrollasoftware.com
 - Canal Youtube: https://bit.ly/2BWvikz
-- Correo: gcoronelc@gmail.com
 
 
 # VIDEOS DEL CURSO
@@ -39,12 +39,7 @@
 - Consultas a una tabla: https://bit.ly/2VhAPL1
 - Group By y Having: https://bit.ly/2QVt92Q
 - Gestión de datos con vistas: https://bit.ly/2CECPGg
-
-
-# LIBROS
-
-- Oracle 10g Adm.: http://gcoronelc.blogspot.pe/2018/03/oracle-database-1og-adm1.html
-- Oracle SQL y PLSQL: http://gcoronelc.blogspot.pe/2011/02/libros-de-oracle.html
+- Curso de PL/SQL: https://bit.ly/3bciqYb
 
 
 # CURSOS VIRTUALES
