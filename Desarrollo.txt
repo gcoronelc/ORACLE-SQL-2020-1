@@ -1,0 +1,36 @@
+Clase 01
+========================================
+1.- Presentación
+2.- Repositorio del curso
+3.- Introducción a ORACLE
+4.- Estructuras de Almacenamiento
+5.- Creación de un Esquema
+6.- Esquemas de trabajo: SCOTT, HR, RECURSOS, EDUCA, VENTAS, EUREKA
+
+ 
+Clase 02
+========================================
+1.- 
+2.- 
+5.- 
+
+
+Clase 03
+========================================
+1.- 
+2.- 
+
+Clase 04
+========================================
+1.- 
+2.- 
+3.- 
+
+
+
+
+
+
+
+
+
