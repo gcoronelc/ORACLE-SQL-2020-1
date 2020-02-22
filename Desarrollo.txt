@@ -10,8 +10,8 @@ Clase 01
  
 Clase 02
 ========================================
-1.- 
-2.- 
+1.- Consultas básicas
+2.- Group By y Having
 5.- 
 
 
