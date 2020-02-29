@@ -81,3 +81,51 @@ SELECT *
 FROM SCOTT.hombres H
 FULL JOIN SCOTT.mujeres M ON h.distrito = m.distrito
 ORDER BY 1;
+
+
+-- CROSS JOIN
+
+SELECT * 
+FROM SCOTT.hombres H
+CROSS JOIN SCOTT.mujeres
+ORDER BY 1;
+
+
+
+/*
+SE NECESITA SABER LA CANTIDAD DE EMPLEADOS Y 
+EL IMPORTE DE LA PLANILLA POR DEPARTAMENTO.
+*/
+
+SELECT 
+  d.deptno, d.dname,
+  COUNT(1) EMPLEADOS,
+  SUM(e.sal) PLANILLA,
+  SUM(e.sal + NVL(e.comm,0)) PLANILLA2
+FROM SCOTT.dept D
+JOIN SCOTT.emp E ON d.deptno = e.deptno
+GROUP BY d.deptno, d.dname;
+
+
+
+
+
+
+
+
+-- Se necesita saber la cantidad de matriculados,
+-- los ingresos y lo que falta cobrar por curso.
+-- Esquema. EDUCA.
+
+/*
+
+CODIGO   NOMBRE                  INGRESO              FALTA
+CURSO    CURSO    MATRICULADOS,  PROYECTADO  COBRADO  COBRAR
+----------------------------------------------------------------
+
+*/
+
+
+
+
+
