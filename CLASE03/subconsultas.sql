@@ -89,9 +89,22 @@ from HR.employees e
 join v1 on e.department_id = v1.department_id and e.salary = v1.salary;
 
 
+/*
+Por departamento se necesita saber quiénes son los 
+empleados que tienen mayor tiempo en la empresa.
+*/
 
 
-
+with 
+v1 as (
+  select department_id, min(hire_date) fecha
+  from hr.employees
+  where department_id is not null
+  group by department_id 
+)
+select * 
+from HR.employees e 
+join v1 on e.department_id = v1.department_id and e.hire_date = v1.fecha;
 
 
 
@@ -110,7 +123,3 @@ CURSO    CURSO    MATRICULADOS,  PROYECTADO  COBRADO  COBRAR
 
 
 
-/*
-Por departamento se necesita saber quiénes son los 
-empleados que tienen mayor tiempo en la empresa.
-*/
