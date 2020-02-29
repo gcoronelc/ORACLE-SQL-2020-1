@@ -107,23 +107,31 @@ JOIN SCOTT.emp E ON d.deptno = e.deptno
 GROUP BY d.deptno, d.dname;
 
 
+/*
+La cantidad de productos y stock por categoria.
+Solucionado por MORAN.
+*/
 
-
-
-
-
-
--- Se necesita saber la cantidad de matriculados,
--- los ingresos y lo que falta cobrar por curso.
--- Esquema. EDUCA.
 
 /*
-
-CODIGO   NOMBRE                  INGRESO              FALTA
-CURSO    CURSO    MATRICULADOS,  PROYECTADO  COBRADO  COBRAR
-----------------------------------------------------------------
-
+Por cada país se necesita saber cuántas oficinas existen, 
+la cantidad de empleados y el importe de la planilla.
+Esquema: HR
 */
+
+
+select 
+  c.country_id, c.country_name,
+  count(distinct l.location_id) oficinas,
+  count(e.employee_id) employees,
+  sum(e.salary) payroll
+from HR.countries c
+join HR.locations l on c.country_id = l.country_id
+join HR.departments d on l.location_id = d.location_id
+join HR.employees e on d.department_id = e.department_id
+group by c.country_id, c.country_name;
+
+
 
 
 
