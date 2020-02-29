@@ -122,4 +122,24 @@ CURSO    CURSO    MATRICULADOS,  PROYECTADO  COBRADO  COBRAR
 */
 
 
+with
+proyectado as (
+  select cur_id, sum(mat_precio) proyectado
+  from educa.matricula
+  group by cur_id
+),
+ingresos as (
+  select cur_id, sum(pag_importe) ingresos
+  from educa.pago
+  group by cur_id
+)
+select 
+  c.cur_id, c.cur_nombre, 
+  cur_vacantes * cur_precio planificado,
+  cur_matriculados, p.proyectado, nvl(i.ingresos,0) ingresos,
+  p.proyectado - nvl(i.ingresos,0) "FALTA COBRAR"
+from EDUCA.curso c
+join proyectado p on c.cur_id = p.cur_id
+left join ingresos i on c.cur_id = i.cur_id;
+
 
