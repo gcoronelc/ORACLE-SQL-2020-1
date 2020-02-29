@@ -45,6 +45,54 @@ from scott.dept d
 join v1 on d.deptno = v1.deptno;
 
 
+-- TABLA DERIVADA
+
+/*
+Mostrar los empleados que su salario es
+menor que el salario promedio.
+*/
+
+select avg(salary) promedio
+from HR.employees;
+
+-- Usando subconsultas
+
+select e.*, t.promedio
+from HR.employees e
+JOIN (select ROUND(avg(salary),2) PROMEDIO from HR.employees) T
+ON e.salary < T.PROMEDIO;
+
+
+
+/*
+De cada departamento se necesita saber quien (con empates)
+es el empleado con el menor salario.
+*/
+
+select * 
+from HR.employees
+where (department_id,salary) in ( select department_id, min(salary)
+                                  from hr.employees
+                                  where department_id is not null
+                                  group by department_id );
+
+
+with 
+v1 as (
+  select department_id, min(salary) salary
+  from hr.employees
+  where department_id is not null
+  group by department_id 
+)
+select * 
+from HR.employees e 
+join v1 on e.department_id = v1.department_id and e.salary = v1.salary;
+
+
+
+
+
+
 
 
 
