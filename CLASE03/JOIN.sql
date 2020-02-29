@@ -1,3 +1,5 @@
+-- TABLAS PARA LA DEMOSTRACION
+
 CREATE TABLE SCOTT.HOMBRES(
   DNI CHAR(8) PRIMARY KEY,
   NOMBRE VARCHAR2(100),
@@ -43,6 +45,7 @@ COMMIT;
 SELECT * FROM SCOTT.HOMBRES;
 SELECT * FROM SCOTT.MUJERES;
 
+-- JOIN - ON
 
 SELECT * 
 FROM SCOTT.hombres H
@@ -59,4 +62,22 @@ JOIN SCOTT.mujeres M ON h.profesion = m.profesion
 order by 1; 
 
 
+-- LEFT OUTER
 
+SELECT * 
+FROM SCOTT.hombres H
+LEFT JOIN SCOTT.mujeres M ON h.distrito = m.distrito; 
+
+-- RIGHT OUTER
+
+SELECT * 
+FROM SCOTT.hombres H
+RIGHT JOIN SCOTT.mujeres M ON h.distrito = m.distrito;
+
+
+-- FULL OUTER
+
+SELECT * 
+FROM SCOTT.hombres H
+FULL JOIN SCOTT.mujeres M ON h.distrito = m.distrito
+ORDER BY 1;
