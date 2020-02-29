@@ -133,6 +133,22 @@ group by c.country_id, c.country_name;
 
 
 
+-- SELFT - JOIN
+
+SELECT 
+  e.empno, e.ename, j.ename JEFE
+FROM SCOTT.EMP E
+JOIN SCOTT.EMP J ON e.mgr = J.empno;
+
+
+-- NONEQUALITY JOINS
+
+SELECT e.empno, e.ename, e.sal, g.grade
+FROM SCOTT.EMP E 
+JOIN SCOTT.salgrade G 
+ON e.sal BETWEEN g.losal AND g.hisal;
+
+
 
 
 
