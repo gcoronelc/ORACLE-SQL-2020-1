@@ -6,11 +6,41 @@ Para laboratorio, examen, consultas.
 
 Presentar una caso
 
-- Explicar el caso 
-- Modelar el caso (6 tablas mínimo)
-- Generar el script de creación del esquema
-- Script de carga de datos
-- Proponer 10 requerimientos de información (consultas) simples con su respectiva solución.
-- Proponer 10 requerimientos de información (consultas) complejas con su respectiva solución.
+  El caso corresponde a una farmacia.
+  Los productos de que maneja la farmacia se compran en una unidad,
+  y se pueden vender en diferentes unidades, por ejemplo, se compra 
+  en cajas y se puede vender por caja, blister o por unidad.
+  Las ventas puedens ser coorporativas o a publico consumidor.
+  Hay productos que se venden solo con receta.
+  ... . . . . . .. 
+  ......
   
+  
+- Explicar el caso 
+
+  Se ha considerado manejar una tabla de unidades,
+  ... . .. . . .
+  
+- Modelar el caso (6 tablas mínimo)
+
+  Se puede utilizar ERWIN.
+
+- Generar el script de creación del esquema
+
+
+- Script de carga de datos
+
+- Proponer 10 requerimientos de información (consultas) simples con su respectiva solución.
+
+  1.- Se necesita el stock de productos por cada local.
+
+	SELECT .... 
+
+  2.- .. .... 
+
+
+- Proponer 10 requerimientos de información (consultas) complejas con su respectiva solución.
+ 
+
+ 
 PD: Las consultas complejas deben ser multitablas, con subconsultas, grupos, with, etc.
