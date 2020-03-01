@@ -21,7 +21,9 @@
 - Correo del curso: egcc.uni@gmail.com
 - Blog: www.desarrollasoftware.com
 - Canal Youtube: https://bit.ly/2BWvikz
-
+- Facebook 1: https://www.facebook.com/groups/universidadjava/
+- Facebook 2: https://www.facebook.com/groups/desarrollasoftware/
+- Facebook 3: https://www.facebook.com/groups/bolsa.sistemas/
 
 # VIDEOS DEL CURSO
 
