@@ -23,8 +23,8 @@ Clase 03
 
 Clase 04
 ========================================
-1.- Función RANK
-2.- 
+1.- Función CASE
+2.- Función RANK
 3.- 
 
 
