@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="ITM" directorySegmentName="seg_0" id="7543F6E7-CAF4-F999-F5A2-B48061BA0EED">
+<sourceConnName>itm</sourceConnName>
+<sourceObjName>ITM</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<schemaObject>24A5AF70-C79D-DF26-8942-D02997A000CD</schemaObject>
+</UserOraclev10g>

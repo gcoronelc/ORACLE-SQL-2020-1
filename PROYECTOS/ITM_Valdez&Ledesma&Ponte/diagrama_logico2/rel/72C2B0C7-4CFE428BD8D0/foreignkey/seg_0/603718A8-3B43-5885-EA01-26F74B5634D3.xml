@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="603718A8-3B43-5885-EA01-26F74B5634D3" containerWithKeyObject="1F9BBD0C-EAF4-05CD-934B-733BD214C97E" localFKIndex="E907C9E9-EB3E-FE39-DFC5-8DC39C56E5A1" name="ITM_R_85">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM</sourceObjSchema>
+<sourceObjName>ITM_R_85</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<referredTableLongName>ITM.ITM_OFFICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7584A09D-F7DE-F6F0-58EF-0255FBE11C10</referredTableID>
+<keyObject>AFC018CA-1858-E6B1-A1E1-0E8AB8277A1A</keyObject>
+<referredKeyID>AFC018CA-1858-E6B1-A1E1-0E8AB8277A1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CLIENTID,OFFICEID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

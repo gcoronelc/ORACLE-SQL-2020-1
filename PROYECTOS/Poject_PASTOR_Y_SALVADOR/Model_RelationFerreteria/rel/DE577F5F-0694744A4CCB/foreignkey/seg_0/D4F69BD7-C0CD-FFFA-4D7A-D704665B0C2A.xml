@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4F69BD7-C0CD-FFFA-4D7A-D704665B0C2A" containerWithKeyObject="314F8EA3-A29D-ECEB-0E3B-86EDA2E571BD" localFKIndex="F0A7BA57-CD29-86E7-6EC2-AC01EBD7BE47" name="DETALLEPEDIDOS_PRODUCTOFK">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>FERRETERIA</sourceObjSchema>
+<sourceObjName>DETALLEPEDIDOS_PRODUCTOFK</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<referredTableLongName>FERRETERIA.PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77258D7C-81FF-42A0-54E3-809B6749304C</referredTableID>
+<keyObject>D716204C-6501-4A7D-9082-71E9033E054E</keyObject>
+<referredKeyID>D716204C-6501-4A7D-9082-71E9033E054E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGOPRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

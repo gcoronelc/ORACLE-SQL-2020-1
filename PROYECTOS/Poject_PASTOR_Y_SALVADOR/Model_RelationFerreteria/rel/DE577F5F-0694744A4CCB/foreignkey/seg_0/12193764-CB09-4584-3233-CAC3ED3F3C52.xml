@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12193764-CB09-4584-3233-CAC3ED3F3C52" containerWithKeyObject="9DC4A722-3CBD-CAAC-EDCD-D4FCCC5B9475" localFKIndex="A8BD96D7-1A86-DB8E-0BC1-BFFA7197E3E8" name="ALMACEN_PROVEEDOR_FK">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:18:49 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<referredTableLongName>FERRETERIA.PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FE1178CE-69FE-788B-4BD1-5F512A18AC5D</referredTableID>
+<keyObject>D495C4E1-2168-392B-9EF0-D60A52F91618</keyObject>
+<referredKeyID>D495C4E1-2168-392B-9EF0-D60A52F91618</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUC</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

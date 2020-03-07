@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ITM_CLIENT" directorySegmentName="seg_0" id="85185609-4A31-043D-2215-20D86DA607F8">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<schemaObject>24A5AF70-C79D-DF26-8942-D02997A000CD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>97A44C99-09B6-6F37-3A50-D65082FF7AE9</segment>
+<tableSpace>F3AE14BF-EE5B-B9EE-E653-7718B7F6EF1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CLIENTID" id="1852B9E2-4905-9E62-B7A3-0671B49FF097">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_U" id="4C7DE10A-CC33-30B4-CE9F-BFAF427AC753">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_U" id="50CCB189-F0A3-A599-17F8-D05CF6DCEEE4">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="5FD96318-522E-C268-0D58-ADAF0EFA4C09">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="744E7F12-2265-E339-235F-2BD5EF72739D">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID_U" id="77EE2B88-1945-EF02-A582-0FF575C809EE">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_I" id="7C0F467E-66B5-853B-3233-B839B128131B">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID_I" id="805F4762-FA5E-C252-8DA0-A01BEA831462">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_I" id="F89BD029-456A-E64F-CF34-40E1A92F9FA8">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAC" id="FB2320AA-9E64-CBF0-F8F3-2E874A2AE56C">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="XPKITM_CLIENT" id="B351B2B0-1FAE-56F2-73E5-B0C70C9A9C77">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<schemaObject>24A5AF70-C79D-DF26-8942-D02997A000CD</schemaObject>
+<segment>84988E15-ED09-41CB-622E-380775B94E76</segment>
+<tableSpace>CA86645F-93B4-4CFB-1C91-BBCE49B303AA</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="XPKITM_CLIENT" id="E38BD406-35E6-5D4B-619D-5BA67E9BDD54">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<segment>84988E15-ED09-41CB-622E-380775B94E76</segment>
+<tableSpace>CA86645F-93B4-4CFB-1C91-BBCE49B303AA</tableSpace>
+<existingIndex>B351B2B0-1FAE-56F2-73E5-B0C70C9A9C77</existingIndex>
+<indexSegment>84988E15-ED09-41CB-622E-380775B94E76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

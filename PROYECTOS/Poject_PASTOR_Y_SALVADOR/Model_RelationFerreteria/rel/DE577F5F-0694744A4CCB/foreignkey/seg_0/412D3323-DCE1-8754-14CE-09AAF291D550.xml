@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="412D3323-DCE1-8754-14CE-09AAF291D550" containerWithKeyObject="314F8EA3-A29D-ECEB-0E3B-86EDA2E571BD" localFKIndex="3B2A9E56-ADF8-85C0-A709-D459C8DFB803" name="DETALLEPEDIDOS_PEDIDOFK">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>FERRETERIA</sourceObjSchema>
+<sourceObjName>DETALLEPEDIDOS_PEDIDOFK</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<referredTableLongName>FERRETERIA.PEDIDOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82A70BAE-ED66-133D-CD02-1BF8CE74F433</referredTableID>
+<keyObject>12134F34-04DB-103E-67B4-0CD7173A9E0E</keyObject>
+<referredKeyID>12134F34-04DB-103E-67B4-0CD7173A9E0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGOPEDIDO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

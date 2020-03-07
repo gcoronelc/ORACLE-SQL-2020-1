@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GAMASPRODUCTOS" directorySegmentName="seg_0" id="D4A2DA76-FC45-DE7F-EF88-693DEA03E2E1">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<schemaObject>D4829822-8741-3A00-AE4D-367C2982828E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>16D854A1-9B6B-C2AF-1AEA-353882AFFC91</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IMAGEN" id="167E2352-D7FB-7A97-7589-DFB46A240AA9">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOMODIFICADO" id="1B8F21D1-4035-4783-0F2C-D22A08511EB7">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GAMA" id="4E10ED1F-AFCC-CEB1-2D43-24D288372974">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORAREGISTRO" id="946B17C9-6F15-F651-6B72-7754D5DCA524">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAREGISTRO" id="95B178AD-5AF2-A971-2C82-2ACCC31F9705">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAMODIFICADO" id="A4793E82-38F2-EACB-AAD8-90CA90D9281A">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORAMODIFICADO" id="B7A43368-A74B-3DEE-1566-A585DF92F056">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOREGISTRO" id="D3760A82-47CE-E62D-6B1D-32A1BA7C3920">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCIONTEXTO" id="DB25FC86-D9D9-800B-CF81-0166D2EE4783">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCIONHTML" id="E6EBE661-354C-E9AA-BB0A-1D7A47590C01">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0010573" id="07BAD9D0-A2D0-C64D-F412-B4AB6C713341">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<schemaObject>D4829822-8741-3A00-AE4D-367C2982828E</schemaObject>
+<segment>55786516-BDD8-1C9E-E659-CAA941B1B68F</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000071196C00002$$" id="6EAF1C47-740A-F6A4-2D2B-DEF5DF745F3F">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>DESCRIPCIONTEXTO</column>
+<logging>YES</logging>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+</LobStorage>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000071196C00003$$" id="661CBD68-7267-0A18-0D8B-361505853B8B">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>DESCRIPCIONHTML</column>
+<logging>YES</logging>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+</LobStorage>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000071196C00004$$" id="1A953745-FAC8-2D7A-3074-660478E322F5">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>IMAGEN</column>
+<logging>YES</logging>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GAMASPRODUCTOS_PK" id="6F74A786-B212-66DF-B0B0-9CCFB89D102A">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<segment>55786516-BDD8-1C9E-E659-CAA941B1B68F</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+<existingIndex>07BAD9D0-A2D0-C64D-F412-B4AB6C713341</existingIndex>
+<indexSegment>55786516-BDD8-1C9E-E659-CAA941B1B68F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

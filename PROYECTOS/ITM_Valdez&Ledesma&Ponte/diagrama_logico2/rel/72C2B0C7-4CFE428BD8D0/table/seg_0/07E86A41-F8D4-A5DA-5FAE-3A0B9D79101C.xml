@@ -1,0 +1,771 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07E86A41-F8D4-A5DA-5FAE-3A0B9D79101C" schemaObject="24A5AF70-C79D-DF26-8942-D02997A000CD" name="ITM_TICKET">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM</sourceObjSchema>
+<sourceObjName>ITM_TICKET</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="INSTALLATION" id="9361EDB0-5F4F-2A73-568E-10F1B0329E5C">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>INSTALLATION</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Instalación{GF}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404C266E-AC92-CCEF-24B6-002F7606B6F4" referredColumn="4E3C34F4-F0F7-D205-5FFF-43A903EAB85B"/>
+<colAssociation fkAssociation="6055DF37-B690-7749-1A04-F3CDF1EA86B2" referredColumn="17181CB6-6C9C-DD27-292B-C1B2F05B8B75"/>
+</associations>
+</Column>
+<Column name="TICKETID" id="3DFBAAEB-7185-6E71-7DEE-6AA76813BC83">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TICKETID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ticket{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIORITY" id="00D42B16-F756-2D8A-8EF9-29C627651F0A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>PRIORITY</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Prioridad{}{}{TICKETPRIORITY}{}
+Baja/Media/Alta]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEVERITY" id="196B48D2-692C-DA3A-E806-57E030F43BC1">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>SEVERITY</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Severidad{}{}{TICKETSEVERITY}{}
+Bajo/medio/Alta]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUMMARY" id="A9111218-3D99-B480-A0C8-2AF778ABBF29">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>SUMMARY</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Resumen{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORY" id="5D66C110-806D-D3BC-51F9-A7A93668B73A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>CATEGORY</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Categoría{}{}{TICKETCATEGORY}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="1318265C-9972-75EC-C7C9-29264AB8CF57">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado{}{}{TICKETSTATUS}{}
+Creación, Abierto, Atendido, Cerrado]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTED" id="5CD471E6-2D35-E4C6-0DA5-31395FCB4E81">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>REPORTED</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Reportado por{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTEDDATE" id="97BB585A-AA5E-A432-AE5D-1DC61FEF07CA">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>REPORTEDDATE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha reporte{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPORTEDTIME" id="2A713ADE-7E6D-DF91-D1A5-914C400F882C">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>REPORTEDTIME</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hora reporte{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTID" id="0294493F-10C3-2CAD-9E27-204410CB197F">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>CLIENTID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cliente{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6055DF37-B690-7749-1A04-F3CDF1EA86B2" referredColumn="1B59B14E-38A0-BC63-E2B2-B3B96ED3A98B"/>
+</associations>
+</Column>
+<Column name="OFFICEID" id="814535AC-B1A5-94B8-B38B-68F9E2594F7A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>OFFICEID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6055DF37-B690-7749-1A04-F3CDF1EA86B2" referredColumn="51C952FF-7B5F-D4B9-9237-36E0FB2B67B8"/>
+</associations>
+</Column>
+<Column name="AREAID" id="071D077C-5117-A0CC-0FCF-E9853DE6A0D7">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>AREAID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Area{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6055DF37-B690-7749-1A04-F3CDF1EA86B2" referredColumn="E695DD8B-FD78-1391-CB1B-A8437229FBA0"/>
+</associations>
+</Column>
+<Column name="PROJECTID" id="90D208DF-225E-A950-D696-1ABF68A8A7A8">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>PROJECTID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Proyecto{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6055DF37-B690-7749-1A04-F3CDF1EA86B2" referredColumn="474CA51D-783D-9734-DCF7-52686E9099DB"/>
+</associations>
+</Column>
+<Column name="TECHNOLOGY" id="1A3E381E-2678-6CA2-E5AD-41B01232CB83">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TECHNOLOGY</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tecnología{}{}{}{}
+Si es networking, etc, etc]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="DECB5586-5957-B6E8-2772-45EC0DF02DFF">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Producto{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEVICETYPE" id="6CAC1691-32D6-8595-5F62-5BB6153C670E">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>DEVICETYPE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD0E27A-74BF-7CF8-D400-2BB4A9474572" referredColumn="F792DC2C-6C82-0B11-7682-18A0056BC74E"/>
+</associations>
+</Column>
+<Column name="DEVICEID" id="75F37C18-7379-ACBE-C428-C86637E263B8">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>DEVICEID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id. Dispositivo{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD0E27A-74BF-7CF8-D400-2BB4A9474572" referredColumn="4CE90FE5-4F16-DAD1-5CF7-E39105C7C983"/>
+</associations>
+</Column>
+<Column name="PLATFORMID" id="FBE09285-7EDE-8329-D81E-2FBA38B81905">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>PLATFORMID</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Plataforma{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OS" id="CFE9E0B3-AB3E-3AE1-85BB-9E65A86EED0E">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>OS</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sistema operativo{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OSVERSION" id="D6F4C867-73E2-D81B-40F1-457F124CCF2A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>OSVERSION</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Version S.O{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASSIGNEDTO" id="9A165C5C-93EB-4F4D-BF53-48482391DDCA">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>ASSIGNEDTO</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Asignado a{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOSOLVEDATE" id="B9C3F568-FDEF-1218-74B8-B53A7C5876D0">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TOSOLVEDATE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOSOLVETIME" id="0EB49FAE-04F2-27A8-EABA-EE6AF036B33A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TOSOLVETIME</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STEPSTOREPRODUCEISSUE" id="3CB21EC0-34C7-EA87-2A07-F32A53785C9F">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>STEPSTOREPRODUCEISSUE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pasos para reproducir problema{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDITIONALCOMMENT" id="67E4C3B3-2EE7-F44A-6AFE-2E3B15FD53AA">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>ADDITIONALCOMMENT</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Comentario adicional{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SCALATATION" id="4F24E9C5-AEFA-8A3C-9928-49A885DC116A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>SCALATATION</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Escalación{}{}{}{}Nivel 1, 2, 3
+]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPRODUCIBILITY" id="64CD5B57-83F5-AEAF-1440-35BF1D979772">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>REPRODUCIBILITY</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Replicación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HELPTOPIC" id="736A45B7-9220-EDC3-7EF7-E88D7233881D">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>HELPTOPIC</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ayuda{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAGS" id="1F200B5B-DEA9-358A-67C9-94AE9050BCD0">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TAGS</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tags{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1024 BYTE</dataTypeSize>
+<ownDataTypeParameters>1024 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIEWSTATUS" id="3280719C-C52E-6203-9739-8549FFBD07D4">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>VIEWSTATUS</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado vista{}{}{TICKETVIEWSTATUS}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOLUTION" id="74B92111-5FFE-D510-E69C-3DB1E0FE2E42">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>RESOLUTION</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Solución{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOLUTIONDATE" id="78F1D6B6-639A-6D6D-9047-5E6F91092B48">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>RESOLUTIONDATE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESOLUTIONTIME" id="EB87CDBE-562C-713A-8933-B95CC0611577">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>RESOLUTIONTIME</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOURCE" id="1C24DF77-4A09-28D3-DBD9-076080F65EF9">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>SOURCE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fuente{}{}{AUDITTYPE}{}Como fue creado el ticket]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID_I" id="2431381B-70FC-C968-7898-8AA09F6E95AE">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>USERID_I</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario registro{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_I" id="69B09FF1-833D-9288-3494-4B2780A3C13A">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>DATE_I</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha registro{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_I" id="5868AF84-36B2-D004-0F65-E61CB41522EA">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TIME_I</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hora registro{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID_U" id="D88CF94D-0A5A-950C-E9F4-C5E4D086712C">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>USERID_U</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario modificación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_U" id="8E1EB3B1-8754-8137-BF78-8BB4D2AF3F37">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>DATE_U</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha modificación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIME_U" id="A48DB5AC-9C9D-2E65-52B3-CE1A93E714ED">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>TIME_U</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hora modificación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAC" id="0C31FC63-8980-76B4-7882-1752615A1A3C">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM_TICKET</sourceObjSchema>
+<sourceObjName>MAC</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código autenticación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A00311B0-E241-270E-9508-F8326F12A3C8" name="XPKITM_TICKET">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM</sourceObjSchema>
+<sourceObjName>XPKITM_TICKET</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DFBAAEB-7185-6E71-7DEE-6AA76813BC83"/>
+<colUsage columnID="9361EDB0-5F4F-2A73-568E-10F1B0329E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57E1DE44-5C5C-2C36-B71C-338EB18C6FE2" schemaObject="24A5AF70-C79D-DF26-8942-D02997A000CD" name="XPKITM_TICKET">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM</sourceObjSchema>
+<sourceObjName>XPKITM_TICKET</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DFBAAEB-7185-6E71-7DEE-6AA76813BC83"/>
+<colUsage columnID="9361EDB0-5F4F-2A73-568E-10F1B0329E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E4A8D2F-4DDB-C0ED-F1E1-3BC3A57458CD" name="ITM_R_52">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9361EDB0-5F4F-2A73-568E-10F1B0329E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C366797A-3574-6B21-9EDF-965B98706EE2" name="ITM_R_60">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9361EDB0-5F4F-2A73-568E-10F1B0329E5C"/>
+<colUsage columnID="90D208DF-225E-A950-D696-1ABF68A8A7A8"/>
+<colUsage columnID="071D077C-5117-A0CC-0FCF-E9853DE6A0D7"/>
+<colUsage columnID="0294493F-10C3-2CAD-9E27-204410CB197F"/>
+<colUsage columnID="814535AC-B1A5-94B8-B38B-68F9E2594F7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A266C89B-86E4-A4A8-B8FC-8546B6BC214D" name="ITM_R_73">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75F37C18-7379-ACBE-C428-C86637E263B8"/>
+<colUsage columnID="6CAC1691-32D6-8595-5F62-5BB6153C670E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

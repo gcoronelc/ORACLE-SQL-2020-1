@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3F4E6F1D-E9F2-5BB9-65E3-9584DB67B008">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:15:40 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

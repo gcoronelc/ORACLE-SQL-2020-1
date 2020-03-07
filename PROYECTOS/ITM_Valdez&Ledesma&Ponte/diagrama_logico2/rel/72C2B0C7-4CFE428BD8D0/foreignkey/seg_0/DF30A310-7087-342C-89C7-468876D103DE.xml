@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DF30A310-7087-342C-89C7-468876D103DE" containerWithKeyObject="34748723-8154-5771-657F-55874656E40D" localFKIndex="26B6BF0C-D6C4-5552-A769-4D76A9414502" name="ITM_R_80">
+<sourceConnName>itm</sourceConnName>
+<sourceObjSchema>ITM</sourceObjSchema>
+<sourceObjName>ITM_R_80</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<referredTableLongName>ITM.ITM_DEVICE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>26132CC0-F009-7EFF-02A6-B882FDCFA0FA</referredTableID>
+<keyObject>AD962B03-76AC-5B1D-4EC5-A451452C6C68</keyObject>
+<referredKeyID>AD962B03-76AC-5B1D-4EC5-A451452C6C68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DEVICEID,DEVICETYPE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

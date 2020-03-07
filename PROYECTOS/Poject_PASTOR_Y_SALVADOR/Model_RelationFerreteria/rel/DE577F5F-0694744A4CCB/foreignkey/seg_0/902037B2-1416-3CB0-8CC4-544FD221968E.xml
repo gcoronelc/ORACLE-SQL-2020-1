@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="902037B2-1416-3CB0-8CC4-544FD221968E" containerWithKeyObject="D200305E-56C9-DCED-75FD-41CE6488ADF3" localFKIndex="A326B15E-FC52-A627-1B11-3561C80215F0" name="PAGOS_CLIENTEFK">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>FERRETERIA</sourceObjSchema>
+<sourceObjName>PAGOS_CLIENTEFK</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<referredTableLongName>FERRETERIA.CLIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8897128-6719-BC0F-EFAE-B4871D72D5A9</referredTableID>
+<keyObject>9E775051-0D31-D549-7535-2D015C8E9974</keyObject>
+<referredKeyID>9E775051-0D31-D549-7535-2D015C8E9974</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGOCLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

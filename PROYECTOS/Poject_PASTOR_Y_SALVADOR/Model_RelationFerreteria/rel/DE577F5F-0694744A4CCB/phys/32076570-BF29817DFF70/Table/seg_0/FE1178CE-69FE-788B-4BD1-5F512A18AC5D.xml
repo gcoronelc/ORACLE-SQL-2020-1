@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROVEEDOR" directorySegmentName="seg_0" id="FE1178CE-69FE-788B-4BD1-5F512A18AC5D">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<schemaObject>D4829822-8741-3A00-AE4D-367C2982828E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>16D854A1-9B6B-C2AF-1AEA-353882AFFC91</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHAMODIFICADO" id="0EB9C11A-31F1-5E71-4AC7-0E12929B303F">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORAMODIFICADO" id="206CF709-E084-F627-D64D-99BD42FE8733">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTACTO" id="2EBC8537-E813-C1D9-F9D0-605C5E8DD312">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOMODIFICADO" id="4508A0F8-90CB-EB2C-96D6-171B495F70CA">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUC" id="8DDE0369-5CED-8E35-3564-D40E53EE8B8D">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORAREGISTRO" id="8F7B0CAA-1C86-1FE4-9B31-1FDE1D436FC7">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOREGISTRO" id="980C2768-AD41-BBE2-C1CF-5B920581766A">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBREPROVEEDOR" id="AF0B8C2D-489E-DC07-388C-42C663E8CF67">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAREGISTRO" id="C99B4EF9-E1A0-A867-808B-E5C482CBC086">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="E994D5DF-E2F0-CD72-448F-1FE722242CCF">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROVEEDOR_PK" id="D495C4E1-2168-392B-9EF0-D60A52F91618">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:16:32 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

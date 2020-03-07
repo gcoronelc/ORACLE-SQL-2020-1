@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENTES" directorySegmentName="seg_0" id="F8897128-6719-BC0F-EFAE-B4871D72D5A9">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<schemaObject>D4829822-8741-3A00-AE4D-367C2982828E</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>16D854A1-9B6B-C2AF-1AEA-353882AFFC91</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHAMODIFICADO" id="0BD873B8-028A-DE25-6766-2960114B195F">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOREGISTRO" id="13BF975C-CE77-61C7-5664-42616C1E10BF">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="2A76D5B6-FC38-6F25-92A9-CCF81CBD5358">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRECLIENTE" id="31751B5D-8DF9-C107-6123-7E94DC5D54AC">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOCLIENTE" id="40F81991-2759-A7C6-F97A-02405ABB49CD">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIUDAD" id="51506773-9CE7-89E5-B9E8-5E7E9456F5D6">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LINEADIRECCION2" id="5342DF03-49B8-1D60-387F-95A6AF06E930">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NOMBRECONTACTO" id="63652030-E571-55AA-9A93-C71FAD838E11">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="APELLIDOCONTACTO" id="6C176D0B-5A08-4A6A-527F-2E6D54C00547">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CODIGOEMPLEADOREPVENTAS" id="7FDEE039-17E2-5601-284D-54E0426491ED">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="HORAMODIFICADO" id="8BC43323-1129-648B-97CD-5E0BAFF8C854">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HORAREGISTRO" id="926C2272-220C-6A9F-7B60-3FA60E38A3C0">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIMITECREDITO" id="9BD03A3A-868F-CA50-256B-F0AD1C819F16">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="FECHAREGISTRO" id="B82F29EA-770B-D673-2CD2-8928621C5F72">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USUARIOMODIFICADO" id="C779E19D-96BB-1752-1C63-A730DF730DBE">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAX" id="DFB40B3E-FE4B-9DD1-D80C-9EE050768C2C">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOPOSTAL" id="E60FEBC6-67F8-772B-D222-21DAE1F2E319">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="PAIS" id="EB2A3F97-E2AF-9C8A-2AB4-BBDD91460194">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="REGION" id="F37CDB1F-974B-C87B-60C8-C9F3372F3C47">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<defaultValue>NULL</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="LINEADIRECCION1" id="F93E7503-7DDA-E040-2044-409A8E38C104">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SYS_C0010553" id="B5024B8A-C8D4-35AA-3A23-885D716D502D">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<schemaObject>D4829822-8741-3A00-AE4D-367C2982828E</schemaObject>
+<segment>55786516-BDD8-1C9E-E659-CAA941B1B68F</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CLIENTES_EMPLEADOSFK" id="8AE64381-CA38-1403-ACD5-B8EE4E0724D3">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTES_PK" id="9E775051-0D31-D549-7535-2D015C8E9974">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<segment>55786516-BDD8-1C9E-E659-CAA941B1B68F</segment>
+<tableSpace>005E0F9F-3255-76D6-C056-675AFBA4AA1B</tableSpace>
+<existingIndex>B5024B8A-C8D4-35AA-3A23-885D716D502D</existingIndex>
+<indexSegment>55786516-BDD8-1C9E-E659-CAA941B1B68F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ITM_DEVICE" directorySegmentName="seg_0" id="26132CC0-F009-7EFF-02A6-B882FDCFA0FA">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<schemaObject>24A5AF70-C79D-DF26-8942-D02997A000CD</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>97A44C99-09B6-6F37-3A50-D65082FF7AE9</segment>
+<tableSpace>F3AE14BF-EE5B-B9EE-E653-7718B7F6EF1F</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USERID_I" id="12DE544B-9148-6919-DC1F-8EBEDA4BF1B4">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAC" id="15524387-42D9-1803-2685-3B17ACE471C2">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID_U" id="279921D3-D1B3-E879-F55F-9D7C7A476854">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_I" id="31AFC52B-FE6D-C704-01AC-7CD4F73234E4">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="45071638-588D-EE90-C66F-C28B7D4AE9F4">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEVICEID" id="4CE90FE5-4F16-DAD1-5CF7-E39105C7C983">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_I" id="50A1EC4A-621E-2CB8-75E0-A0807AFD5CE5">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_U" id="6C42FA62-CDF0-17BC-ABAA-D589098B3D2C">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SOLDBY" id="6C610FA5-AB1C-FA88-7B48-68DBE0D3D114">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATE_U" id="90E9A89D-5DF0-A2D8-A437-CEDBCC841384">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEVICETYPE" id="F792DC2C-6C82-0B11-7682-18A0056BC74E">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="XPKITM_DEVICE" id="4B5CA6DB-1E76-C780-51E0-179903515608">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<schemaObject>24A5AF70-C79D-DF26-8942-D02997A000CD</schemaObject>
+<segment>84988E15-ED09-41CB-622E-380775B94E76</segment>
+<tableSpace>CA86645F-93B4-4CFB-1C91-BBCE49B303AA</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="XPKITM_DEVICE" id="AD962B03-76AC-5B1D-4EC5-A451452C6C68">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:31 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<segment>84988E15-ED09-41CB-622E-380775B94E76</segment>
+<tableSpace>CA86645F-93B4-4CFB-1C91-BBCE49B303AA</tableSpace>
+<existingIndex>4B5CA6DB-1E76-C780-51E0-179903515608</existingIndex>
+<indexSegment>84988E15-ED09-41CB-622E-380775B94E76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

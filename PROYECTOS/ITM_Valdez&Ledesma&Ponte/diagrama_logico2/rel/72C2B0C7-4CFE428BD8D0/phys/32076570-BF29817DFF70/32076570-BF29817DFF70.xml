@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g" name="Oracle Database 11g" id="AD3155AB-B085-6A21-AE36-67F9B792AE08" siteID="32076570-2523-435C-2E92-BF29817DFF70" siteName="Oracle Database 11g" siteType="9">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:17:09 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+</StorageDesignOraclev11g>

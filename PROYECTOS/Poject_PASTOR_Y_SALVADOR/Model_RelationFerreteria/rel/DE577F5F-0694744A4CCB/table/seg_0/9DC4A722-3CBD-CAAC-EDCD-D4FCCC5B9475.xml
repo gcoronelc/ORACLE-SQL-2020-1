@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DC4A722-3CBD-CAAC-EDCD-D4FCCC5B9475" schemaObject="D4829822-8741-3A00-AE4D-367C2982828E" name="ALMACEN">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>FERRETERIA</sourceObjSchema>
+<sourceObjName>ALMACEN</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGOPRODUCTOALMACEN" id="38AEC177-CA6B-7AF4-AF55-BBE647595BB8">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>CODIGOPRODUCTOALMACEN</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Codigo producto en almacen{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="42F85441-27F7-26F2-2A10-FCBBE5ADE482">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[DESCRIPCION{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHACADUCIDAD" id="567CA7CF-8EA9-56C6-FB0E-FBCFC17266F3">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>FECHACADUCIDAD</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[FECHA CADUCIDAD{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTROSANIDAD" id="E228D2E6-0CA8-5772-1BE2-0A12370D7B71">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>REGISTROSANIDAD</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIORIDAD" id="33D283C3-5E3E-A2CF-3D0D-109A76466438">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>PRIORIDAD</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMEROLOTE" id="FC3CF1DD-864C-7A75-4E4E-C6921BF6858A">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>NUMEROLOTE</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[NUMERO DE LOTE{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAREGISTRO" id="70E468DE-2467-5FC0-5619-8A636DA07F32">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>FECHAREGISTRO</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha registro{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORAREGISTRO" id="9FA00296-C75E-6E94-2570-6E7074E09614">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>HORAREGISTRO</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hora registro{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIOMODIFICADO" id="8CEB47A1-D7B4-018B-66A0-F203106D952C">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>USUARIOMODIFICADO</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Usuario modificación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAMODIFICADO" id="641E0772-E93C-CDFD-8CAD-481DE0DC9485">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>FECHAMODIFICADO</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha modificación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORAMODIFICADO" id="F3FE4AD6-5DFA-8F3F-44B3-FE17D53B6C93">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>HORAMODIFICADO</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Hora modificación{}{}{}{}]]></commentInRDBMS>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVEEDOR_RUC" id="984A14DE-07D3-AD70-8FE7-21FB1065D719">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:18:49 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12193764-CB09-4584-3233-CAC3ED3F3C52" referredColumn="8DDE0369-5CED-8E35-3564-D40E53EE8B8D"/>
+</associations>
+</Column>
+<Column name="USUARIOS_CODIGO_USUARIO" id="CDDC530E-16CF-E050-110A-1B674EF721FC">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:21:29 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4216D1CF-74E6-8DF9-2C75-61E9C76F3F48" referredColumn="23DE1E05-DE9D-8052-B412-1085ADA4233F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5DFDB1C-F989-BB31-9C8F-F06B39378732" name="ALMACEN_PK">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:17:44 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38AEC177-CA6B-7AF4-AF55-BBE647595BB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8BD96D7-1A86-DB8E-0BC1-BFFA7197E3E8" name="ALMACEN_PROVEEDOR_FK">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:18:49 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="984A14DE-07D3-AD70-8FE7-21FB1065D719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EBFB422-ED4F-74DC-662E-A754A503992F" name="ALMACEN_USUARIOS_FK">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:21:29 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDDC530E-16CF-E050-110A-1B674EF721FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

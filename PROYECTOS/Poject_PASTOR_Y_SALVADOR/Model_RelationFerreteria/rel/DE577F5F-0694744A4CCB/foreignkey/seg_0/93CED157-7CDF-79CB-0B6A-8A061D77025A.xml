@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93CED157-7CDF-79CB-0B6A-8A061D77025A" containerWithKeyObject="77258D7C-81FF-42A0-54E3-809B6749304C" localFKIndex="6A231216-4DEF-20EA-66E7-722B1DC7F73E" name="PRODUCTOS_ALMACEN_FK">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:20:11 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<referredTableLongName>FERRETERIA.ALMACEN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DC4A722-3CBD-CAAC-EDCD-D4FCCC5B9475</referredTableID>
+<keyObject>A5DFDB1C-F989-BB31-9C8F-F06B39378732</keyObject>
+<referredKeyID>A5DFDB1C-F989-BB31-9C8F-F06B39378732</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGOPRODUCTOALMACEN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

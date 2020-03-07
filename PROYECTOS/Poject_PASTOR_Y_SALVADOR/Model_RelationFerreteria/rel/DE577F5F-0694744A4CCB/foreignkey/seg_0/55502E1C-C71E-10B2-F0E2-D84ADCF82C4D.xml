@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55502E1C-C71E-10B2-F0E2-D84ADCF82C4D" containerWithKeyObject="E040642B-DA80-B141-73E4-536FE97199EE" localFKIndex="770AEEA0-E75D-AC99-15BE-DE4B0CEBF118" name="EMPLEADOS_OFICINASFK">
+<sourceConnName>FERRETERIA</sourceConnName>
+<sourceObjSchema>FERRETERIA</sourceObjSchema>
+<sourceObjName>EMPLEADOS_OFICINASFK</sourceObjName>
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:39 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<referredTableLongName>FERRETERIA.OFICINAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0E138942-7CCC-A394-5BE5-D7CCDCAAE0D6</referredTableID>
+<keyObject>A849D857-7E54-AE12-4A4C-07D3AE70E7CE</keyObject>
+<referredKeyID>A849D857-7E54-AE12-4A4C-07D3AE70E7CE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGOOFICINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

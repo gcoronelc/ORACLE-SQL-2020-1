@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4558A9F8-3D32-0238-B93F-5432FAF8D62C">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 14:15:40 UTC</createdTime>
+<ownerDesignName>diagrama_logico2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

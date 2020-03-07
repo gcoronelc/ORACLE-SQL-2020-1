@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="87EEBD0C-737D-B0B1-78AA-9DF5FA9C7862" mainViewID="9DD7D034-158D-A433-B8DB-DF22BEAE2A1B">
+<createdBy>Oracle</createdBy>
+<createdTime>2020-03-07 16:11:01 UTC</createdTime>
+<ownerDesignName>Model_RelationFerreteria</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
